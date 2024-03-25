@@ -1,0 +1,13 @@
+Bir ön web geliştiricisi olarak hareket etmenizi istiyorum.
+Proje için şu araçları kullanarak yeni bir web sitesi kodlayacaksınız:
+HTML, CSS için CDN'yi kullanan Bootstrap çerçevesi ve JavaScript.
+Web sitesi mobil uyumlu ve duyarlı olmalıdır.
+HTML, CSS ve Javascript kodlarını ayrı çıktılar olarak vermen önemlidir.
+Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz.
+Bu web sitesi chatbox a yazılan ruh haline göre size resim öneren bir sitedir.
+ Websitemde bulunmasını istediğim etiketler (header, main, nav,  section, article, aside, footer) şeklindedir. 
+Bana bu websitesini oluşturmada yardımcı olur musun?
+
+Bir chatbox ekler misin? Chatbox'a yazılan duyguya göre ana sayfaya bir resim gelmesini istiyorum.
+
+

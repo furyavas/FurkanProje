@@ -1,0 +1,76 @@
+/* Body'nin stilini güncelle */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Koyu gri arka plan rengi */
+    background-image: url('https://www.kemalarikan.com/wp-content/uploads/2018/12/toplumsal-iklim-ve-ruh-hali-sagligi.jpg');
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image-opacity: 0.5;
+    opacity: 2; /* Opaklık değeri */
+    color: cyan; /* Yazı rengi turkuaz (cyan) */
+    text-align: center; /* Yazıları ortala */
+}
+
+header {
+    background-color: #1E90FF; /* Koyu mavi tonu */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Header'ı göreceli bir konuma getiriyoruz */
+    background-image: url(); /* Bulut görseli */
+    background-size: 150px; /* Görsel boyutunu ayarlayın */
+    background-position: center; /* Görsel pozisyonunu ortala */
+    background-repeat: no-repeat; /* Görseli tekrar etme */
+}
+
+header img {
+    display: none; /* Header içerisindeki diğer görseli gizleyin */
+}
+
+header h1 {
+    margin-top: 70px; /* Başlığı yukarı kaydırarak logo ile arasında boşluk bırakıyoruz */
+}
+
+/* Chatbox'u sola sabitle */
+.chatbox-container {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ 
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+section {
+    padding: 20px 0;
+}
+ 
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

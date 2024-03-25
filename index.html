@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugün Hangi Kedisin?</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#BUGÜN">MUTLU</a></li>
+                <li><a href="#HANGİ">ÜZGÜN</a></li>
+                <li><a href="#KEDİSİN">SİNİRLİ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="MUTLU">
+            <h2>Mutlu isen mutlu yaz</h2>
+            <p>MUTLU KEDİ :)</p>
+        </section>
+
+        <section id="ÜZGÜN">
+            <h2>Üzgün isen üzgün yaz</h2>
+            <p>ÜZGÜN KEDİ:(</p>
+        </section>
+
+        <section id="SİNİRLİ">
+            <h2>Sinirli isen sinirli yaz</h2>
+            <p>SİNİRLİ KEDİ!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Telif Hakkı &copy; Bugün hangi kedisin?</p>
+    </footer>
+
+    <!-- Chatbox için -->
+    <div class="chatbox-container">
+        <input type="text" id="chatbox" placeholder="Ruh halinizi yazın...">
+        <button id="submitBtn">Gönder</button>
+    </div>
+
+    <div class="result-container">
+        <img id="resultImage" src="images/logo.png" alt="Ruh haline göre en uygun kedi">
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
